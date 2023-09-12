@@ -1,0 +1,50 @@
+/* --DarkBlue: hsl(233, 26%, 24%);
+  --LimeGreen: hsl(136, 65%, 51%);
+  --BrightCyan: hsl(192, 70%, 51%);
+  --GrayBlue: hsl(233, 8%, 62%);
+  --LightGrayBlue: hsl(220, 16%, 96%);
+  --LightGray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%); */
+
+header nav {
+  outline: 1px solid green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 6rem;
+  background-color: --white;
+}
+
+.header-links ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.header-links ul li a {
+  text-decoration: none;
+  color: var(--GrayBlue);
+}
+
+.header-links ul li a:hover {
+  color: var(--DarkBlue);
+}
+
+.header-btn {
+  color: white;
+  border-radius: 2rem;
+  padding: 0.5rem 2rem;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--LimeGreen),
+    var(--BrightCyan)
+  );
+}
+
+.header-btn:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--BrightCyan),
+    var(--LimeGreen)
+  );
+}
