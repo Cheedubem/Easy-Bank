@@ -11,6 +11,7 @@
 * {
   margin: 0;
   line-height: calc(1em + 0.5rem);
+  /* overflow: hidden; */
 }
 
 html {
@@ -21,7 +22,7 @@ body {
   font-family: "Public Sans", sans-serif;
 }
 
-img,
+/* img, */
 picture,
 video,
 canvas,
@@ -37,3 +38,21 @@ button {
   cursor: pointer;
   color: inherit;
 }
+
+.btn {
+  color: white;
+  border-radius: 2rem;
+  padding: 0.5rem 2rem;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--LimeGreen),
+    var(--BrightCyan)
+  );
+}
+
+.btn:hover {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--BrightCyan),
+    var(--LimeGreen)
+  );

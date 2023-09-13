@@ -7,12 +7,12 @@
   --White: hsl(0, 0%, 100%); */
 
 header nav {
-  outline: 1px solid green;
+  /* outline: 2px solid red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 6rem;
-  background-color: --white;
+  background-color: white;
 }
 
 .header-links ul {
@@ -24,6 +24,7 @@ header nav {
 .header-links ul li a {
   text-decoration: none;
   color: var(--GrayBlue);
+  transition: ease 0.2s;
 }
 
 .header-links ul li a:hover {

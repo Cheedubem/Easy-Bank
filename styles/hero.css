@@ -1,0 +1,48 @@
+.hero {
+  background-color: var(--LightGray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* The overflow x and y hidden is prevent scrollbars from appering for the hero images that are spilling out */
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 90vh;
+}
+
+.hero-text {
+  align-self: center;
+  padding-left: 6rem;
+}
+
+.hero-item {
+  /* i used this to let the text and the image to take 1 column of space each on the page */
+  /* i gave both the text and the images container the same class "hero-item" */
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.hero-text p {
+  margin-top: 1rem;
+  font-size: 18px;
+  color: var(--GrayBlue);
+}
+
+.hero-text .hero-btn {
+  margin-top: 1rem;
+}
+
+.hero-image {
+  background-image: url(/images/bg-intro-desktop.svg);
+  background-position: 10px -80px;
+  background-size: 160%;
+  background-repeat: no-repeat;
+}
+
+.hero-image .hero-phone {
+  width: 100%;
+  padding-left: 8rem;
+}
