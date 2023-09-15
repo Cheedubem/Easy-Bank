@@ -20,10 +20,12 @@
 .reason h2 {
   font-weight: 300;
   font-size: 2rem;
+  color: var(--DarkBlue);
 }
 
 .reason p {
   margin-top: 1rem;
+  color: var(--DarkBlue);
 }
 
 .reason-box-container {
@@ -35,7 +37,7 @@
 }
 
 .reason-box:nth-child(4) {
-  /* the fourth element wasnt aligned properly for some weird reason */
+  /* the fourth element wasnt aligned properly for some weird */
   margin-top: -0.5rem;
 }
 
@@ -46,6 +48,7 @@
 .reason-box h3 {
   margin-top: 1rem;
   font-weight: 500;
+  color: var(--DarkBlue);
 }
 
 .reason-box p {
