@@ -27,6 +27,9 @@
 .article-box:hover {
   transform: translateY(-10px);
 }
+.article-box:hover h3 {
+  color: var(--LimeGreen);
+}
 
 .article-box-image img {
   width: 100%;

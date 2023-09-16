@@ -56,3 +56,12 @@ button {
     var(--BrightCyan),
     var(--LimeGreen)
   );
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
