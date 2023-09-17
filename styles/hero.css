@@ -27,6 +27,7 @@
 }
 
 .hero-text p {
+  text-wrap: nowrap;
   margin-top: 1rem;
   font-size: 18px;
   color: var(--GrayBlue);
@@ -46,4 +47,87 @@
 .hero-image .hero-phone {
   width: 100%;
   padding-left: 8rem;
+}
+
+@media all and (max-width: 1024px) {
+  .hero-text {
+    padding-left: 5rem;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+  .hero-image {
+    background-position: 10px -50px;
+    background-size: 160%;
+  }
+
+  .hero-image .hero-phone {
+    width: 100%;
+    padding-left: 6rem;
+  }
+}
+
+@media all and (max-width: 812px) {
+  .hero-text h1 {
+    font-size: 2.2rem;
+  }
+  .hero-text p {
+    font-size: 15px;
+  }
+  .hero-text {
+    padding-left: 5rem;
+  }
+  .hero-image .hero-phone {
+    width: 100%;
+    padding-left: 6rem;
+  }
+}
+@media all and (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  .hero-text p {
+    font-size: 14px;
+  }
+  .hero-text {
+    padding-left: 4rem;
+  }
+}
+@media all and (max-width: 426px) {
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: fit-content;
+  }
+  .hero-text {
+    text-align: center;
+    padding: 1rem 3rem;
+    padding-bottom: 6rem;
+  }
+  .hero-text p {
+    margin-top: 0.5rem;
+    font-size: 12px;
+    color: var(--GrayBlue);
+  }
+  .hero-image {
+    background-image: url(/images/bg-intro-mobile.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+  }
+
+  .hero-image .hero-phone {
+    width: 90%;
+    height: auto;
+    margin-top: -10rem;
+    padding-left: 1.2rem;
+  }
 }
