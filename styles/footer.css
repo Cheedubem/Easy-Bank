@@ -72,6 +72,9 @@
   .footer {
     padding: 2rem 5rem;
   }
+  .footer-content {
+    gap: 1rem;
+  }
   .footer-logo {
     margin-right: -9rem;
     gap: 2rem;
@@ -91,12 +94,16 @@
   }
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 426px) {
   .footer {
     overflow: hidden;
     gap: 1rem;
     padding: 2rem 2rem;
     flex-direction: column;
+  }
+
+  .footer-content {
+    gap: 1rem;
   }
 
   .footer-logo {
